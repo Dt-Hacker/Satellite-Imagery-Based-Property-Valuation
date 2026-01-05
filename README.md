@@ -85,7 +85,7 @@ https://services.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/e
 
 ### Image Retrieval Process
 
-- Latitude and longitude values are used to compute a bounding box around each property.
+- Latitude and longitude values are used to compute a bounding box of size 200X200 around each property.
 - A fixed spatial region surrounding the property is requested.
 - Images are retrieved using standard **HTTP GET requests**.
 - Each property is associated with one satellite image.
