@@ -15,15 +15,20 @@ All experiments, training, and evaluation were performed using **Kaggle Notebook
 
 ## 📂 Repository Contents
 
-├── multimodal_real_estate.ipynb # Complete pipeline (preprocessing → modeling → explainability)
-├── train.xlsx # Training dataset
-├── test.xlsx # Test dataset
-├── prediction.csv # Final predictions
-└── README.md
+├── final_notebook.ipynb # Complete pipeline (preprocessing → modeling → explainability)<br>
+├── train.xlsx # Training dataset<br>
+├── test.xlsx # Test dataset<br>
+├── prediction.csv # Final predictions<br>
+├── data_fetcher.py<br>
+├── preprocessing.ipynb<br>
+├── model_training.ipynb<br>
+└── README.md<br>
+
 
 
 **Note:**  
-All code (data preprocessing, CNN feature extraction, modeling, and explainability) is contained within a **single notebook**.
+All code (data preprocessing, CNN feature extraction,training ,modeling, and explainability) is contained within a **single notebook**(final_notebook.ipynb).<br>
+Other parts of code have been seperated to meet the requirements of the deliverables.<br>
 
 ---
 
@@ -159,9 +164,9 @@ A Random Forest regressor was evaluated using tabular features combined with CNN
 
 ### Architecture
 
-Tabular Features ─┐
-├── XGBoost ──► Price Prediction
-CNN Embeddings ───┘
+Tabular Features ─┐<br>
+├── XGBoost ──► Price Prediction<br>
+CNN Embeddings ───┘<br>
 
 
 - CNN embeddings are concatenated with tabular features.
