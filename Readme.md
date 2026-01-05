@@ -15,11 +15,11 @@ All experiments, training, and evaluation were performed using **Kaggle Notebook
 
 ## 📂 Repository Contents
 
-├── multimodal_real_estate.ipynb # Complete pipeline (preprocessing → modeling → explainability)
-├── train.xlsx # Training dataset
-├── test.xlsx # Test dataset
-├── prediction.csv # Final predictions
-└── README.md
+├── multimodal_real_estate.ipynb # Complete pipeline (preprocessing → modeling → explainability)<br>
+├── train.xlsx # Training dataset<br>
+├── test.xlsx # Test dataset<br>
+├── prediction.csv # Final predictions<br>
+└── README.md<br>
 
 
 **Note:**  
