@@ -15,7 +15,7 @@ All experiments, training, and evaluation were performed using **Kaggle Notebook
 
 ## 📂 Repository Contents
 
-├── final_notebook.ipynb # Complete pipeline (preprocessing → modeling → explainability)<br>
+├── complete_code.ipynb # Complete pipeline (preprocessing → modeling → explainability)<br>
 ├── train.xlsx # Training dataset<br>
 ├── test.xlsx # Test dataset<br>
 ├── prediction.csv # Final predictions<br>
@@ -26,7 +26,7 @@ All experiments, training, and evaluation were performed using **Kaggle Notebook
 
 
 **Note:**  
-All code (data preprocessing, CNN feature extraction,training ,modeling, and explainability) is contained within a **single notebook**(final_notebook.ipynb).<br>
+All code (data preprocessing, CNN feature extraction,training ,modeling, and explainability) is contained within a **single notebook**(complete_code.ipynb).<br>
 Other parts of code have been seperated to meet the requirements of the deliverables.<br>
 
 ---
